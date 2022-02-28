@@ -10,8 +10,7 @@ $(document).ready(function () {
   }
 
   // JSON
-  const url =
-    "http://127.0.0.1:5500/entregaFinal/js/productos.json";
+  const url ="/js/productos.json";
     let productos = [];
   getUrl();
   function getUrl() {
