@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   // JSON
   const url =
-    "entregaFinal/jsJavierMillanDesafio/js/productos.json";
+    "http://127.0.0.1:5500/entregaFinal/js/productos.json";
     let productos = [];
   getUrl();
   function getUrl() {
