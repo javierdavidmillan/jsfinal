@@ -2,7 +2,7 @@
 
 
 const productos = document.getElementById('contenedor');
-fetch('/entregaFinal/jsJavierMillanDesafio/js/productos.json')
+fetch('entregaFinal/jsJavierMillanDesafio/js/productos.json')
 .then((response) => response.json())
 .then((data) => {
     data.forEach(producto => {
