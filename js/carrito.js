@@ -20,7 +20,7 @@ $(document).ready(function () {
   <div class=col-3>${producto.nombre}</div> 
   <div class=col-3> $${producto.precio}</div>
   <div class="col-3">espacio vacio</div>
-  <button class="col-3 button" id=${producto.orderId} ><i class="fas fa-trash col-3"></i>Eliminar del carrito (tiene el orderId del producto)</button>
+  <button class="col-3 button" id=${producto.orderId} ><i class="fas fa-trash col-3"></i>Eliminar del carrito</button>
   `;
     precioTotal += parseInt(producto.precio);
   }
